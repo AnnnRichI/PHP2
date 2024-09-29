@@ -1,0 +1,27 @@
+{
+    "name": "annie/php3",
+    "description": "my app",
+    "autoload": {
+        "psr-4": {
+            "Annie\\Php3\\": "src/"
+        },
+        "files": [
+            "src/games/game.function.php",
+            "src/log.function.php",
+            "src/app/main.function.php",
+            "src/app/template.function.php",
+            "src/app/db.function.php", 
+            "src/blog/commands/blog.function.php" 
+        ]
+    },
+    "authors": [
+        {
+            "name": "NastyaBabakova",
+            "email": "nastya.babakova.2001@mail.ru"
+        }
+    ],
+    "require": {
+        "ext-pgsql": "*",
+        "fakerphp/faker": "^1.23"
+    }
+}
